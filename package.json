@@ -1,0 +1,49 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A to do list in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint my-files.js",
+    "build": "webpack-cli",
+    "watch": "webpack-cli --watch",
+    "serve": "webpack-cli serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyphernetica/todo.git"
+  },
+  "keywords": [
+    "todo",
+    "react",
+    "babel",
+    "webpack"
+  ],
+  "author": "Ricci Pierre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyphernetica/todo/issues"
+  },
+  "homepage": "https://github.com/cyphernetica/todo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.16.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
